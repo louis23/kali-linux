@@ -4,6 +4,12 @@ This is a scenario exercise done in a recent Cybersecurity Experiential Workshop
 
 There are 6 questions, focusing on the auth.log.2 file
 
+# Key Takeaways and Learning 
+* Chaining commands in text manipulation is very useful, caution must be given to the sequence of the chaining (left to right)
+* It is key to read the objectives clearly. One small deviation or misinterpretation can lead to different results.
+* In this sandbox environment, it's okay to try and submit the answers without being 100% sure of the answer
+* In Q2, the correct answer was 1 number away from my previous answer. What happened? That single extra entry that should be removed had a username "rootftp", not the "root" user that  the question was looking for
+
 # Skills showcased: Basic Linux commands, Text manipulation
 Scenario Questions:
 1. Log into 18.194.139.143 via SSH, entering 'admin?' as the user and 'Capitalb' as your password. In the /var/log folder, access auth.log.2 and calculate how many minutes the log has been recording events.
@@ -35,8 +41,3 @@ Scenario Questions:
 
 ![Screenshot 2025-06-05 at 11 19 57 AM](https://github.com/user-attachments/assets/a8c68e6e-6f2e-416a-a4a7-be3f2a46defc)
 
-# Key Takeaways and Learning 
-* Chaining commands in text manipulation is very useful, caution must be given to the sequence of the chaining (left to right)
-* It is key to read the objectives clearly. One small deviation or misinterpretation can lead to different results.
-* In this sandbox environment, it's okay to try and submit the answers without being 100% sure of the answer
-* In Q2, the correct answer was 1 number away from my previous answer. What happened? That single extra entry that should be removed had a username "rootftp", not the "root" user that  the question was looking for
